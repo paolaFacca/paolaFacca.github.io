@@ -1,0 +1,32 @@
+:root{
+    --blue: rgb(9, 90, 156);
+    --red: #b60505;
+    --violet: #7500fa;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+/* di base cosa succede nel body */
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* grandezza del bottone per cambiare da modalità notte e giorno*/
+.button {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    right: 20px;
+}
+
+/* modalità Giorno */
+.light-theme{
+    background: var(--white);
+    color: var(--blue);
+}
+
+/* modalità Notte*/
+.dark-theme{
+    background:var(--blue);
+    color:var(--white);
+}
